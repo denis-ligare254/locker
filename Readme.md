@@ -6,3 +6,5 @@
   ~python3
   ~git for version control
 # link to the repository
+-Below is the link to the remote github repository where the project is located
+ ~https://github.com/denis-ligare254/locker.git 
