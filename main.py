@@ -18,22 +18,29 @@ def main():
           username_created = input()
 
           print("create secret-key")
-          password_created = input()
+          secret_created = input()
 
           print("confirm secret-key")
-          password_confirmed = input()
+          secret_confirmed = input()
 # confirming if the password entered was right
-          while password_created != password_confirmed:
+          while secret_created != secret_confirmed:
               print('invalid key entered')
-              print('re-enter your password please')
-              password_reentered = input()
-              print("confirm your password")
+              print('re-enter your secret-key')
+              secret_created = input()
+              print("confirm your secret-key")
+              secret_confirmed = input()
  # if the code details entered was okay,the following code will run
           else:
                 print("congrats,account created")
                 print("\n")
                 print("log your credentials")
-                password =input()
+                print("enter username")
+                username =input()
+                print("enter secret-key")
+                secretkey = input()
+          while username !=username_created or secret_created != secretkey:
+                print('invalid details')
+                print('')
                 
                 
 
