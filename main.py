@@ -13,7 +13,7 @@ def main():
        detail_holder = input()
       
        print("\n")
-       if detail_holder == "sign-in":
+       if detail_holder == "create account":
           print('enter username')
           username_created = input()
 
@@ -44,9 +44,20 @@ def main():
                 username = input()
                 print('enter secret-key')
                 secretkey = input()
+   # if the details entered is correct, then the user has to receive the below message
 
 
+          else:
+              print("you are welcomed:{username}") 
+
+   # if the user wants to login to the system ,the following code will run
+       elif detail_holder =="log in":
+          print("its nice to see you again,welcome")
+          print('enter username')
+          second_username =input()
+          print('enter secret-key')
+          second_secret_key =input()
+            
                 
-                
-
+if __name__=="__main__":
 
