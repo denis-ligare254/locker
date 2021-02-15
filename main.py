@@ -40,7 +40,12 @@ def main():
                 secretkey = input()
           while username !=username_created or secret_created != secretkey:
                 print('invalid details')
-                print('')
+                print('enter username')
+                username = input()
+                print('enter secret-key')
+                secretkey = input()
+
+
                 
                 
 
