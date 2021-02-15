@@ -7,4 +7,6 @@ class User_login:
    def _init_(self, user_name, user_password):
       self.user_name = user_name
       self.user_password = user_password
-
+# container of the details
+def container_user(self):
+  login.user_details.append(self)
