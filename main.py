@@ -1,3 +1,5 @@
+#getpass module is used to encrypt password
+from  getpass import getpass
 #  provides access to functions that support these types of operations
 import random
 # importing user class form login file
@@ -18,7 +20,7 @@ def main():
           username_created = input()
 
           print("create secret-key")
-          secret_created = input()
+          secret_created = getpass (input())
 
           print("confirm secret-key")
           secret_confirmed = input()
@@ -26,7 +28,7 @@ def main():
           while secret_created != secret_confirmed:
               print('invalid key entered')
               print('re-enter your secret-key')
-              secret_created = input()
+              secret_created = getpass(input())
               print("confirm your secret-key")
               secret_confirmed = input()
  # if the code details entered was okay,the following code will run
@@ -60,4 +62,4 @@ def main():
             
                 
 if __name__=="__main__":
-
+  main()
