@@ -1,12 +1,13 @@
-# class creation
-class User_login:
- # user details to be stored here
-   user_informations=[]
-   # function to contain the details
+# creating a class,it creates the blueprint for the pearson who will use the susyem
+class logins:
+   user_list =[]
+   def __init__(self,user_credentials,secret_key):
+    '''
+    instantiation
 
-   def _init_(self, user_name, user_password):
-      self.user_name = user_name
-      self.user_password = user_password
-# container of the details
-def container_user(self):
-  login.user_information.append(self)
+    '''
+    self.user_credentials = user_credentials
+    self.secret_key = secret_key
+    # the users details have to be saved somewhere,here we have to create a fuction to help us do so
+   def save_input(self):
+       logins.user_list.append(self)

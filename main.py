@@ -28,6 +28,13 @@ def main():
               print('re-enter your password please')
               password_reentered = input()
               print("confirm your password")
- 
+ # if the code details entered was okay,the following code will run
+          else:
+                print("congrats,account created")
+                print("\n")
+                print("log your credentials")
+                password =input()
+                
+                
 
 
