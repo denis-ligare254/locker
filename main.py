@@ -17,4 +17,17 @@ def main():
           print('create username')
           username_created = input()
 
+          print("create password")
+          password_created = input()
+
+          print("confirm password")
+          password_confirmed = input()
+# confirming if the password entered was right
+          while password_created != password_confirmed:
+              print('wrong password created')
+              print('re-enter your password please')
+              password_reentered = input()
+              print("confirm your password")
+ 
+
 
