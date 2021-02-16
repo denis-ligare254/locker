@@ -60,6 +60,6 @@ def main():
           print('enter secret-key')
           second_secret_key = getpass()
             
-                
+                # this module can be run alone as standalone
 if __name__=="__main__":
   main()
