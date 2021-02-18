@@ -35,7 +35,7 @@ def main():
           else:
                 print("Account created successfully")
                 print("\n")
-                print("you can now log in)
+                print("you can now log in")
                 print("enter username")
                 username =input()
                 print("enter secret-key")
