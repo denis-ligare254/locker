@@ -23,7 +23,7 @@ def main():
           secret_created = getpass()
 
           print("confirm secret-key")
-          secret_confirmed = input()
+          secret_confirmed = getpass()
 # confirming if the password entered was right
           while secret_created != secret_confirmed:
               print('invalid key entered')
