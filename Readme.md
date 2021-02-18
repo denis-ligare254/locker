@@ -10,8 +10,12 @@
 # link to the repository
 -Below is the link to the remote github repository where the project is located
  ~https://github.com/denis-ligare254/locker.git 
- 
- # Licence
+# How to run the application
+-Since the application is a script,to run it, follow the following steps
+   -open the vs code terminal where the project is located 
+   -inside the terminal, run the following command (python3 main.py)
+         N/B We are running main.py since its the entry point of our application
+# Licence
  Copyright (c) <2021> <Ligare Dennis>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
