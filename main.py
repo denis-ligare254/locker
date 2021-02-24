@@ -1,17 +1,29 @@
-#getpass module is used to encrypt password
+
 from  getpass import getpass
-#  provides access to functions that support these types of operations
+'''
+ importation of various module such as getpass , random and login module
+
+'''
 import random
 # importing user class form login file
 from login import logins
+# emoji package being imported
 
 # main function 
 def main():
+    '''
+    declared  the main function here, inside the main function. we have  condiftion statement
+
+    args[]
+       while the condition is true, the code has to perform the given instruction 
+       otherwise, it will fail the test
+
+    '''
     while True:
        print("welcome to password locker")
        print("\n")
        print("what do you want to do?create account,sign in or exit?type your answer below")
-# created a dummy variable that holds any inputs that the user will choose
+
        detail_holder = input()
       
        print("\n")
@@ -21,7 +33,7 @@ def main():
 
           print("create secret-key")
           secret_created = getpass()
-
+          
           print("confirm secret-key")
           secret_confirmed = getpass()
 # confirming if the password entered was right
@@ -48,9 +60,8 @@ def main():
                 secretkey = getpass()
    # if the details entered is correct, then the user has to receive the below message
 
-
           else:
-              print("you are welcomed:{username}") 
+              print("you are welcomed:{{username}}") 
 
    # if the user wants to login to the system ,the following code will run
        elif detail_holder =="log in":
@@ -60,6 +71,6 @@ def main():
           print('enter secret-key')
           second_secret_key = getpass()
             
-                # this module can be run alone as standalone
+# this module can be run alone as standalone
 if __name__=="__main__":
   main()
